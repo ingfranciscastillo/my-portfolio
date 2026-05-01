@@ -18,7 +18,7 @@ interface NavbarProps {
 export function Navbar({ name, onDownload }: NavbarProps) {
   return (
     <header className="no-print sticky top-0 z-50 border-b-2 border-ink bg-background/85 backdrop-blur supports-backdrop-filter:bg-background/70">
-      <div className="container mx-auto relative flex h-16 items-center justify-between gap-4">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative flex h-16 items-center justify-between gap-4">
         {/* LEFT */}
         <a href="#top" className="flex items-center gap-2 font-bold z-10">
           <img

@@ -16,7 +16,7 @@ interface SkillsProps {
 export function Skills({ skills }: SkillsProps) {
   return (
     <section id="skills" className="bg-surface border-y-2 border-ink">
-      <div className="container mx-auto py-20 md:py-28">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <SectionHeader
           eyebrow="Skills"
           title="Caja de"

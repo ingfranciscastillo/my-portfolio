@@ -9,7 +9,10 @@ interface WorkTimelineProps {
 
 export function WorkTimeline({ work }: WorkTimelineProps) {
   return (
-    <section id="work" className="container mx-auto py-20 md:py-28">
+    <section
+      id="work"
+      className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28"
+    >
       <SectionHeader
         eyebrow="Experiencia"
         title="Trayectoria"

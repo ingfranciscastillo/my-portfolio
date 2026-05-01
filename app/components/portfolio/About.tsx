@@ -23,7 +23,10 @@ interface AboutProps {
 
 export function About({ basics }: AboutProps) {
   return (
-    <section id="about" className="container mx-auto py-20 md:py-28">
+    <section
+      id="about"
+      className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28"
+    >
       <SectionHeader
         eyebrow="Sobre mí"
         title="Diseño con"

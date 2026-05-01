@@ -1,7 +1,7 @@
 # Francis Castillo — Portfolio
 
 ![Portfolio Preview](/docs/391_1x_shots_so.png)
-![Portfolio Preview](/docs/22_1x_shots_so.png)
+![Portfolio Preview](/docs/651_1x_shots_so.png)
 ![Portfolio Preview](</docs/201_1x_shots_so(1).png>)
 
 Portfolio personal de Frontend Developer & Product Builder, donde combino diseño editorial con desarrollo frontend.
