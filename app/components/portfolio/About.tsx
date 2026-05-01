@@ -54,14 +54,14 @@ export function About({ basics }: AboutProps) {
             >
               <Mail className="h-4 w-4" /> {basics.email}
             </a>
-            {basics.phone ? (
+            {basics.phone && (
               <a
                 href={`tel:${basics.phone}`}
                 className="flex items-center gap-2 hover:underline text-primary-foreground"
               >
                 <Phone className="h-4 w-4" /> {basics.phone}
               </a>
-            ) : null}
+            )}
           </div>
           <div className="flex flex-wrap gap-2 pt-2">
             {basics.profiles.map((p) => {

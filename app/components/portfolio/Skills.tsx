@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import type { ResumeSkill } from "~/types/resume";
 import { SectionHeader } from "./SectionHeader";
 
