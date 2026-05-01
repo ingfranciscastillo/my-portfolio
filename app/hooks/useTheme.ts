@@ -5,7 +5,7 @@ type Theme = "light" | "dark";
 const THEME_KEY = "theme_v1";
 
 export function useTheme() {
-  const [theme, setTheme] = useState<Theme>("light"); // 👈 fijo en SSR
+  const [theme, setTheme] = useState<Theme>("light");
 
   useEffect(() => {
     const stored = localStorage.getItem(THEME_KEY) as Theme | null;
