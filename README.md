@@ -1,7 +1,5 @@
 ![Logo](/app/assets/logo_4_signature.png)
 
-# Francis Castillo — Portfolio
-
 ![Portfolio Preview](/docs/146_1x_shots_so.png)
 ![Portfolio Preview](</docs/201_1x_shots_so(1).png>)
 ![Portfolio Preview](/docs/909_1x_shots_so.png)
