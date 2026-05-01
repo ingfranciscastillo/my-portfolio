@@ -27,10 +27,12 @@ export const links: Route.LinksFunction = () => [
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es">
+    <html lang="es" className="dark">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#344EAD" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#1F293A" media="(prefers-color-scheme: dark)" />
         <Meta />
         <Links />
       </head>

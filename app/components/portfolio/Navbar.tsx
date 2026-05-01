@@ -23,6 +23,8 @@ export function Navbar({ name, onDownload }: NavbarProps) {
           <img
             src={logo}
             alt="Francis Castillo"
+            width={48}
+            height={48}
             className="h-12 w-12 rounded-full object-cover"
           />
         </a>

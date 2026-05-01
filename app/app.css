@@ -120,6 +120,7 @@
   html {
     scroll-behavior: smooth;
     scroll-margin-top: 80px;
+    color-scheme: light dark;
   }
 
   body {
@@ -147,7 +148,7 @@
     @apply rounded-3xl border-2 bg-card;
     border-color: oklch(15% 0.02 265);
     box-shadow: 4px 4px 0 0 oklch(15% 0.02 265);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .card-pop:hover {
@@ -244,4 +245,10 @@
 
 .animate-fade-up {
   animation: fade-up 0.6s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up {
+    animation: none;
+  }
 }
