@@ -1,5 +1,6 @@
 import { Download } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
+import logo from "~/assets/logo_3_badge_circular.png";
 
 const links = [
   { href: "#about", label: "Sobre mí" },
@@ -15,23 +16,20 @@ interface NavbarProps {
 }
 
 export function Navbar({ name, onDownload }: NavbarProps) {
-  const initials = name
-    .split(" ")
-    .slice(0, 2)
-    .map((n) => n[0])
-    .join("");
-
   return (
     <header className="no-print sticky top-0 z-50 border-b-2 border-ink bg-background/85 backdrop-blur supports-backdrop-filter:bg-background/70">
-      <div className="container mx-auto flex h-16 items-center justify-between gap-4">
-        <a href="#top" className="flex items-center gap-2 font-bold">
-          <span className="grid h-9 w-9 place-items-center rounded-full border-2 border-ink bg-gradient-brand text-primary-foreground shadow-pop-sm">
-            {initials}
-          </span>
-          <span className="hidden sm:inline text-lg">{name}</span>
+      <div className="container mx-auto relative flex h-16 items-center justify-between gap-4">
+        {/* LEFT */}
+        <a href="#top" className="flex items-center gap-2 font-bold z-10">
+          <img
+            src={logo}
+            alt="Francis Castillo"
+            className="h-12 w-12 rounded-full object-cover"
+          />
         </a>
 
-        <nav className="hidden md:flex items-center gap-6 text-sm">
+        {/* CENTER (real center) */}
+        <nav className="hidden md:flex items-center gap-6 text-sm absolute left-1/2 -translate-x-1/2">
           {links.map((l) => (
             <a
               key={l.href}
@@ -43,7 +41,8 @@ export function Navbar({ name, onDownload }: NavbarProps) {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2">
+        {/* RIGHT */}
+        <div className="flex items-center gap-2 z-10">
           <ThemeToggle />
           <button
             onClick={onDownload}

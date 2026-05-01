@@ -94,7 +94,7 @@
     },
     {
       "name": "Herramientas",
-      "keywords": ["Git", "Zod", "Docker", "Vitest", "Eslint", "Vite", "Vitest"]
+      "keywords": ["Git", "Zod", "Docker", "Vitest", "Eslint", "Vite"]
     },
     {
       "name": "Idiomas",
