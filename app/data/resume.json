@@ -1,0 +1,145 @@
+{
+  "basics": {
+    "name": "Francis Castillo",
+    "label": "Frontend Developer & Product Builder",
+    "image": "",
+    "email": "franciscastillodev@proton.me",
+    "phone": "+1 809 496 1957",
+    "url": "https://franciscode.dev",
+    "summary": "Frontend engineer enfocado en producto, especializado en convertir ideas en aplicaciones reales de forma rápida. Combino diseño, desarrollo e IA para crear experiencias simples, útiles y listas para crecer. Creo experiencias web de alto rendimiento con un enfoque en la usabilidad y el detalle. Desde la arquitectura del backend hasta el último píxel del frontend.",
+    "location": {
+      "city": "La Romana",
+      "countryCode": "ES",
+      "region": "Republica Dominicana"
+    },
+    "profiles": [
+      { "network": "GitHub", "username": "ingfranciscastillo", "url": "https://github.com/ingfranciscastillo" },
+      { "network": "Twitter", "username": "ingfranciscas", "url": "https://x.com/ingfranciscas" },
+      { "network": "Behance", "username": "ingfranciscastillo", "url": "https://www.behance.net/ingfranciscastillo" },
+      { "network": "Instagram", "username": "ingfranciscastillo", "url": "https://www.instagram.com/ingfranciscastillo" }
+    ]
+  },
+    "work": [
+    {
+      "name": "100ESignature",
+      "position": "Desarrollador Frontend",
+      "startDate": "2023",
+      "endDate": "2025",
+      "location": "Remoto",
+      "summary": "Desarrollo interfaces para una plataforma de firmas digitales, enfocándome en rendimiento, usabilidad y claridad en flujos críticos.",
+      "highlights": [
+        "Implementé interfaces en React y TypeScript para flujos de firma y gestión de documentos",
+        "Mejoré la experiencia de usuario en procesos clave reduciendo fricción en el flujo de firma",
+        "Integré APIs para manejo de documentos y estados de firma en tiempo real",
+        "Colaboré con diseño y backend para asegurar consistencia y calidad en el producto"
+      ]
+    },
+    {
+      "name": "Bufete Jurídico Castillo Melo & Asoc.",
+      "position": "Desarrollador Web / Soporte Tecnológico",
+      "startDate": "2015-09",
+      "endDate": "2026-02",
+      "location": "Presencial",
+      "summary": "Encargado del desarrollo y mantenimiento del sitio web, así como de la gestión de sistemas y recursos tecnológicos del bufete.",
+      "highlights": [
+        "Desarrollé y mantuve el sitio web institucional del bufete",
+        "Gestioné correos corporativos, dominios y servicios digitales",
+        "Brindé soporte técnico en equipos y sistemas internos",
+        "Optimicé procesos digitales para mejorar la organización y acceso a la información"
+      ]
+    },
+    {
+      "name": "Evolution Solar System LLC",
+      "position": "Desarrollador Web",
+      "startDate": "2022",
+      "endDate": "2023",
+      "location": "Remoto",
+      "summary": "Desarrollé el sitio web para una empresa de paneles solares, enfocado en presentar servicios de forma clara y generar oportunidades de contacto.",
+      "highlights": [
+        "Diseñé y desarrollé el sitio web corporativo",
+        "Implementé secciones orientadas a conversión (servicios, contacto, llamadas a la acción)",
+        "Optimicé el rendimiento y la experiencia en dispositivos móviles",
+        "Configuré formularios de contacto para captación de clientes potenciales"
+      ]
+    },
+    {
+      "name": "Freelance",
+      "position": "Diseñador & Desarrollador",
+      "startDate": "2020",
+      "endDate": "",
+      "summary": "Desarrollo sitios y aplicaciones web para clientes independientes, enfocado en crear soluciones rápidas, claras y orientadas a resultados."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Dominicana O&M",
+      "area": "Ingeniería en Sistemas Computacionales",
+      "studyType": "Grado",
+      "startDate": "2015-09",
+      "endDate": "2021-10"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Diseño",
+      "keywords": ["Figma", "Photoshop", "Canva", "Investigación UX", "Accesibilidad WCAG"]
+    },
+    {
+      "name": "Frontend",
+      "keywords": ["React", "Astro", "TypeScript", "Tailwind CSS", "Framer Motion", "Next.js"]
+    },
+    {
+      "name": "Backend",
+      "keywords": ["Express.js", "Hono", "NestJS", "Better Auth", "PostgreSQL", "MongoDB", "tRPC", "Golang"]
+    },
+    {
+      "name": "Herramientas",
+      "keywords": ["Git", "Zod", "Docker", "Vitest", "Eslint", "Vite", "Vitest"]
+    },
+    {
+      "name": "Idiomas",
+      "keywords": ["Español (nativo)", "Inglés (B2)"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ResumeSense",
+      "description": "Plataforma de optimización de CVs que utiliza IA para analizar la compatibilidad con vacantes específicas, ofreciendo feedback detallado y sugerencias de mejora.",
+      "keywords": ["React", "React Router", "Puter.js", "Tailwind CSS", "PDFLib"],
+      "url": "https://resumesense.vercel.app/"
+    },
+    {
+      "name": "Nephrite: The Emerald Standard",
+      "description": "Un ecosistema visual meticulosamente diseñado para transformar tu navegador y editor en un santuario de calma y productividad.",
+      "keywords": ["UI Design", "Product Design", "Astro"],
+      "url": "https://getnephrite.dev/"
+    },
+    {
+      "name": "Talegrid: Creación de historias interactivas",
+      "description": "Catálogo open-source de tipografías editoriales con filtros avanzados y previsualizaciones interactivas.",
+      "keywords": ["Next.js", "tRPC", "Better Auth", "Cloudflare", "PostgreSQL"],
+      "url": "https://www.talegrid.app/"
+    },
+    {
+      "name": "Portfolio Code Workspace",
+      "description": "Portafolio interactivo con editor de código estilo IDE.",
+      "keywords": ["Tanstack Router", "React", "Vite"],
+      "url": "https://portfolio-code-workspace.vercel.app"
+    },
+    {
+      "name": "Terminal Portfolio — A developer portfolio",
+      "description": "Un portafolio interactivo que funciona como una terminal. Navega usando comandos, explora proyectos y experimenta una interfaz pensada primero para desarrolladores.",
+      "keywords": ["React Router", "React", "Vite"],
+      "url": "https://termportfolio.netlify.app/"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Terminal Portfolio — A developer portfolio that works like a command line",
+      "publisher": "Behance",
+      "releaseDate": "2026-04-26",
+      "url": "https://www.behance.net/gallery/248261873/Terminal-Portfolio-A-developer-portfolio",
+      "summary": "Traditional portfolios are static. This one is interactive — users explore my experience using commands, just like a real terminal."
+    }
+  ]
+}
