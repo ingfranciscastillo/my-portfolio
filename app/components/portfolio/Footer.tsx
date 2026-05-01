@@ -1,5 +1,5 @@
 import type { ResumeBasics } from "~/types/resume";
-import logo from "~/assets/logo_2_wordmark_stacked.png";
+import logo from "~/assets/logo_3_badge_circular.png";
 
 interface FooterProps {
   basics: ResumeBasics;
@@ -10,7 +10,7 @@ export function Footer({ basics }: FooterProps) {
     <footer className="no-print border-t-2 border-ink bg-background">
       <div className="container mx-auto py-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
         <div className="text-muted-foreground">
-          <img src={logo} className="w-28" />
+          <img src={logo} className="w-16" />
         </div>
         <div className="flex flex-wrap gap-4">
           {basics.profiles.map((p) => (
