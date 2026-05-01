@@ -1,7 +1,8 @@
 # Francis Castillo — Portfolio
 
-<!-- Screenshot here: Add your portfolio screenshot below -->
-<!-- ![Portfolio Preview](docs/screenshot.png) -->
+![Portfolio Preview](/docs/391_1x_shots_so.png)
+![Portfolio Preview](/docs/22_1x_shots_so.png)
+![Portfolio Preview](</docs/201_1x_shots_so(1).png>)
 
 Portfolio personal de Frontend Developer & Product Builder, donde combino diseño editorial con desarrollo frontend.
 
@@ -17,7 +18,7 @@ Portfolio personal de Frontend Developer & Product Builder, donde combino diseñ
 
 ## Demo
 
-[View Live](#) — Coming soon
+[View Live](#)
 
 ## Tech Stack
 
@@ -25,10 +26,3 @@ Portfolio personal de Frontend Developer & Product Builder, donde combino diseñ
 - **Styling**: Tailwind CSS v4
 - **Build**: Vite
 - **Deployment**: Vercel / Netlify
-
-## Ver local
-
-```bash
-npm install
-npm run dev
-```
