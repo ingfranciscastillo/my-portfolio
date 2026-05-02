@@ -19,7 +19,10 @@ function isLinkable(
 
 export function Publications({ publications }: PublicationsProps) {
   return (
-    <section id="publications" className="bg-surface border-y-2 border-ink">
+    <section
+      id="publications"
+      className="no-print bg-surface border-y-2 border-ink"
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <SectionHeader
           eyebrow="Escritos"
